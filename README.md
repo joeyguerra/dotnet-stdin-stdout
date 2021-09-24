@@ -10,3 +10,11 @@ dotnet sln add DotnetStdinStdout/DotnetStdinStdout.csproj
 dotnet new xunit -o DotnetStdinStdout.Tests
 dotnet sln add ./DotnetStdinStdout.Tests/DotnetStdinStdout.Tests.csproj
  ```
+
+ # Local Dev
+
+ Requires `dotnet` cli.
+
+ ```bash
+make test-watch
+ ```
