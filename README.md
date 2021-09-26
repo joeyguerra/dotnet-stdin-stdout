@@ -18,3 +18,11 @@ dotnet sln add ./DotnetStdinStdout.Tests/DotnetStdinStdout.Tests.csproj
  ```bash
 make test-watch
  ```
+
+ # Run
+
+ ```bash
+cd DotnetStdinStdout
+dotnet run
+type something
+```

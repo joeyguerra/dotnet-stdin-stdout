@@ -10,3 +10,6 @@ test:
 test-watch:
 	cd ${APP}.Tests && dotnet watch test
 
+run:
+	cd ${APP} && dotnet run
+
